@@ -1,9 +1,11 @@
-import React from "react";
+import React from "react"
 
-export default function Nav_bar() {
+export default function Navbar() {
     return (
         <div className="navbar">
-            <div className="logo"></div>
+            <div className="logo">
+
+            </div>
             <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -11,4 +13,6 @@ export default function Nav_bar() {
             </ul>
         </div>
     )
+
+    
 }
