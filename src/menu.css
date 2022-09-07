@@ -1,0 +1,59 @@
+.footer-bg{
+    background-image: url('C:\\Users\\Radhe\\c course\\html\\background.jpg');
+}
+.font{
+    color: white;
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 4.3rem;
+    font-family: 'Bree Serif', serif;
+}
+.footer-flex1{
+    display: flex;
+    background-image: url('C:\\Users\\Radhe\\c course\\html\\background.jpg');
+    height: 30vh;
+    padding-top: 3vh;
+    color: white;
+    margin-top: 3vh;
+    padding-left: 7vh;
+    font-size: 3vh;
+}
+.footer-box1{
+    margin-left: 55px;
+}
+.opacity{
+    color: rgba(255,255,255,0.7);
+    
+}
+.btn6{
+    height: 45px;
+    width: 118px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: orange;
+}
+.btn6:hover{
+    color: white;
+}
+.footer-input{
+    line-height: 40px;
+    color: white;
+    background-color: black;
+    border-color: rgba(255,255,255,0.3);
+    font-weight: 600;
+    font-size: 15px;
+    width: 220px;
+    margin-left: 50px;
+    outline: none;
+}
+.footer-input:focus{
+    border-color: rgba(255,255,255,0.3);
+}
+footer{
+    background:green;
+    color: white;
+    height: 60px;
+    padding-top: 26px;
+    padding-left: 150px;
+    font-weight: 600;
+}

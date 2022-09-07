@@ -2,8 +2,8 @@ import React, { useEffect } from "react"
 import Homepic from "./Homepic"
 import Navbar from "./Navbar"
 import {useTransition, animated} from "react-spring"
-
-
+import Contact from "./Contact"
+import Footer from "./Footer"
 
 export default function App() {
     const [scrollY, setScrollY] = React.useState(window.scrollY);
@@ -32,8 +32,10 @@ export default function App() {
             )}
             <Homepic />            
             <div className="hello">
-
+            
             </div>
+          <Contact />
+          <Footer />
         </div>
     )
 }
