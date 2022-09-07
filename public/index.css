@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+.picture {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/images/home_page.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.picture .box {
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 80px;
+    margin-top: calc(50vh - 40px);
+    margin-left: calc(100vw - 600px);
+    color: white;
+}
+.hello {
+    height: 1000px;
+}
+.navbar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: rgba(48, 48, 48,0.1);
+    opacity: 1;
+}
+.logo {
+    width: 50%;
+    height: 80px;
+}
+.navbar ul {
+    display: flex;
+    width: 50%;
+    height: 80px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar ul li {
+    margin-right: 40px;
+    list-style: none;
+}
+
+.TopOffers{
+    font-size: 110%;
+    position: relative;
+    height: fit-content;
+    width: 90%;
+    /* background-color: aqua; */
+    border-radius: 5px;
+    margin: 10px 5% 0px 5%;
+}
+
+.TopOffers #Offers_title{
+    font-size: 300%;
+    width: 100%;
+    font-family:'Brush Script MT', cursive;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+
+.offers{
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: fit-content;
+}
+
+#offer {
+    display: flex;
+    display: block;
+    /* background-color:rgb(224, 222, 222); */
+    border-bottom-right-radius: 50px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0,0.5); 
+    margin: 5% 5% 5% 5%;
+    height: 100%;
+    width: 200px;
+}
+
+#offer:hover{
+    margin-top: 3%;
+}
+
+.offers button{
+    background-color: blue;
+    position: relative;
+    /* width: 200px; */
+    /* padding: 5%; */
+    margin: 5% 5% 5% 5%;
+    height: 20px;
+    width: 100px;
+}
+
+.offers img{
+    margin-top: 15px;
+    width: 80%;
+    height: 30%;
+    display: block;
+    border-radius: 5px;
+}
+
+.offers span{
+    padding: 5%;
+    display: block;
+}
+
+.offer_discount {
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color:wheat;
+    font-family: fantasy;
+    color: black;
+    width: fit-content;
+    float: right;
+    height: 20%;
+    margin-bottom: 5px;
+}
+
+#offer button{
+    border-radius: 5px;
+    background-color: beige;
+    color: black;
+    
+}
