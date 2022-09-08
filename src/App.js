@@ -1,7 +1,7 @@
 import React from "react"
-import Home from "./Home"
-import Contact from "./Contact"
-import About from "./About"
+import Home from "./components/home/Home"
+import Contact from "./components/contact/Contact"
+import About from "./components/about/About"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 

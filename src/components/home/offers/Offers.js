@@ -2,6 +2,7 @@ import React from "react"
 import {useState , useEffect} from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import "../../../css/offers.css"
 
 
 
@@ -42,7 +43,7 @@ export default function Offers() {
 
     const [i, setCounter] = useState(0);
     useEffect(() => {
-        Aos.init({duration : 3000});
+        Aos.init({duration : 2000});
       const interval = setInterval(() => {
         setCounter((prevCounter) => prevCounter + 1);
     }, 3000);
