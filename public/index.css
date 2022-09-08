@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    /* background-color: blueviolet; */
+    background-color: rgb(235, 235, 235);
+}
 .picture {
     width: 100%;
     height: 100vh;
@@ -29,6 +33,9 @@
     color: white;
     background-color: rgba(48, 48, 48,0.1);
     opacity: 1;
+    background-color: rgba(48, 48, 48,0.7);
+    opacity: 1;
+    z-index: 10;
 }
 .logo {
     width: 50%;
@@ -46,12 +53,18 @@
     list-style: none;
 }
 .contact-title{
+    
+    padding-top: 2vh;
+    padding-bottom:2vh;
+    background-color:rgb(200, 218, 173);
+    font-family: 'Bree Serif', serif;
     text-align: center;
-    font-size: 5vh;
+    font-size: 3vh;
     font-weight: 500;
     margin-bottom: 6vh;
 }
 .Contact_second_title{
+    font-family: 'Bree Serif', serif;
     font-size: 3vh;
     font-weight: 600;
     margin-left: 6vw;
@@ -108,4 +121,144 @@ i{
     font-weight: 650;
     border-radius: 0.7rem;
     background-color: orange;
+}
+.TopOffers{
+    font-size: 110%;
+    position: relative;
+    height: fit-content;
+    width: 90%;
+    background-color: rgb(207, 206, 206);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgba(208, 208, 208, 0.1);
+    margin: 10px 4.5% 0px 4.5%;
+}
+
+.TopOffers #Offers_title{
+    font-size: 300%;
+    width: 100%;
+    font-family:'Brush Script MT', cursive;
+    margin-left: 2%;
+    height: fit-content;
+}
+
+.offers{
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: fit-content;
+}
+
+#offer {
+    display: flex;
+    display: block;
+    background-color:rgb(224, 222, 222);
+    border-bottom-right-radius: 50px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0,0.5); 
+    margin: 5% 5% 5% 5%;
+    height: 100%;
+    width: 200px;
+}
+
+#offer:hover{
+    margin-top: 3%;
+}
+
+.offers button{
+    background-color: blue;
+    position: relative;
+    /* width: 200px; */
+    /* padding: 5%; */
+    margin: 5% 5% 5% 5%;
+    height: 20px;
+    width: 100px;
+}
+
+.offers img{
+    margin-top: 15px;
+    width: 80%;
+    height: 30%;
+    display: block;
+    border-radius: 5px;
+}
+
+.offers span{
+    padding: 5%;
+    display: block;
+}
+
+.offer_discount {
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color:wheat;
+    font-family: fantasy;
+    color: black;
+    width: fit-content;
+    float: right;
+    height: 20%;
+    margin-bottom: 5px;
+}
+
+#offer button{
+    border-radius: 5px;
+    background-color: beige;
+    color: black;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+.review-container {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(200, 200, 200, 0.1);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.review_card {
+    box-shadow: 0px 0px 10px 2px rgba(167, 167, 167, 0.5);
+    min-width: 250px;
+    height: 250px;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-top: calc(50% - 150px);
+    margin-bottom: 10px;
+}
+.review_card .image {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    object-fit: contain;
+    border-radius: 50%;
+    margin: auto;
+}
+.review_card h2 {
+    text-align: center;
+    margin: 10px;
+}
+.review_card p {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.review_card img {
+    width: 130px;
+}
+.checked {
+    color: orange;
+}
+.contact-main{
+    margin-top: 10vh;;
+    margin-bottom: 10vh;
 }

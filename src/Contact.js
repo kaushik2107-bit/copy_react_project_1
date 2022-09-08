@@ -1,5 +1,6 @@
 import React from "react"
-
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import GoogleMapReact from 'google-map-react';
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 export default function Contact(){
@@ -13,6 +14,7 @@ export default function Contact(){
     
     return (
         <>
+            <Navbar data="sticky" color0="white" color1="white" color2="red"/>
           <div className="contact-title"><h1>Contact Us</h1></div>
           <div className="Contact_second_title"><h1>call us or visit us</h1></div>
           <div className="contact-box">
@@ -37,6 +39,7 @@ export default function Contact(){
           
         
         </div>
+        <div className="contact-main">
         <div className="contact-flex">
         <div style={{ height: '80vh', width: '50%' }} >
       <GoogleMapReact
@@ -63,11 +66,13 @@ export default function Contact(){
             <br />
             <input type="text" placeholder="Subject" className="contact-input"/>
             <br />
-            <textarea placeholder="comment" className="contact-input" rows={7}></textarea><br />
+            <textarea placeholder="comment" className="contact-input" rows={8.5}></textarea><br />
             <input type="submit" className="contact-submit"/>
         </form>
     </div>
     </div>
-        </>
+    </div>
+    <Footer />
+    </>
     )
 }

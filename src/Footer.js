@@ -17,13 +17,13 @@ export default function Footer(){
                     </div>
                     <div className="footer-box1">
                     <center><h3>BOOK A TABLE</h3></center>
-        <center><p class="opacity">Dogfood och Sliders foodtruck.<br/>
+        <center><p className="opacity">Dogfood och Sliders foodtruck.<br/>
           Under Om oss kan ni läsa</p></center>
-          <center><h3 class="colour">(850) 435-4155</h3></center>
+          <center><h3 className="colour">(850) 435-4155</h3></center>
                     </div>
                     <div className="footer-box1">
                     <center><h3>OPENING HOUR</h3></center>
-        <center><p class="opacity">Monday – Friday: 8am – 4pm <br/>
+        <center><p className="opacity">Monday – Friday: 8am – 4pm <br/>
           Saturday: 9am – 5pm</p></center>
           <div style={{textAlign:"center"}}>
           <a href={"https://www.youtube.com/?feature=ytca"} style={{textDecoration:"none",color:"white"}} ><i className="fa fa-youtube icon" style={{fontSize:"35px",color:"white"}}></i></a>
