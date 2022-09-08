@@ -1,5 +1,5 @@
 import React from "react"
-
+import "../../../css/reviews.css"
 export default function Reviews(props) {
     return (
         <div className="review_card">

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react"
 import Homepic from "./Homepic"
-import Navbar from "./Navbar"
-import ImageSlider from "./imageSlider"
-import Offers from "./Offers"
+import Navbar from "./navbar/Navbar"
+import ImageSlider from "./reviews/imageSlider"
+import Offers from "./offers/Offers"
 import {useTransition, animated} from "react-spring"
-import data from "./reviews-data.json"
+import data from "./reviews/reviews-data.json"
 
 
 export default function App() {

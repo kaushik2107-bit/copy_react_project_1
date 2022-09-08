@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./menu.css"
+import "../../css/footer.css"
 export default function Footer(){
     return (
         <> 

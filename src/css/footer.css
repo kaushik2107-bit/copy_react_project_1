@@ -1,5 +1,5 @@
 .footer-bg{
-    background-image: url('../public/images/background.jpg');
+    background-image: url('../../public/images/background.jpg');
     justify-content: center;
 }
 .font{
@@ -12,7 +12,8 @@
 .footer-flex1{
     display: flex;
     justify-content: center;
-    background-image: url('../public/images/background.jpg');
+    background-image: url('../../public/images/background.jpg');
+    
     height: 30vh;
     
     color: white;

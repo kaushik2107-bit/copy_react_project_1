@@ -1,7 +1,8 @@
 import React from "react"
-import Navbar from "./Navbar";
+import Navbar from "../home/navbar/Navbar";
 import Footer from "./Footer";
 import GoogleMapReact from 'google-map-react';
+import "../../css/contact.css"
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 export default function Contact(){
     const defaultProps = {
