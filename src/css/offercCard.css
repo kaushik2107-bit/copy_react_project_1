@@ -89,7 +89,7 @@
     padding: 5px;
 }
 .offer .cococola {
-    background-image: url(../../public/images/offers/always_cococola.png);
+    background-image: url("../../public/images/offers/always_cococola.png");
     width: 100px;
     height: 100px;
     z-index: 100;
