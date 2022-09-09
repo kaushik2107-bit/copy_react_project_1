@@ -1,8 +1,8 @@
 {
   "name": "react1",
   "version": "0.1.0",
-  "homepage": "https://kaushik2107-bit.github.io/",
-  "private": true,
+  "homepage": "https://kaushik2107-bit.github.io/copy_react_project_1",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
