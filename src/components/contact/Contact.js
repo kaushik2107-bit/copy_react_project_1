@@ -14,8 +14,9 @@ export default function Contact(){
       };
     
     return (
-        <>
-            <Navbar data="sticky" color0="white" color1="white" color2="red"/>
+        <div>
+            <Navbar data="fixed" color0="white" color1="white" color2="red"/>
+          <div style={{height: 80}}></div>
           <div className="contact-title"><h1>Contact Us</h1></div>
           <div className="Contact_second_title"><h1>call us or visit us</h1></div>
           <div className="contact-box">
@@ -74,6 +75,6 @@ export default function Contact(){
     </div>
     </div>
     <Footer />
-    </>
+    </div>
     )
 }

@@ -11,7 +11,7 @@ export default function Offers(props) {
     const settings = {
         infinite: true,
         dots: false, 
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         lazyLoad: true,
         autoplay: true,
@@ -22,7 +22,7 @@ export default function Offers(props) {
     
 
     return (
-        <div className="container">
+        <div className="container" style={{marginTop: 50}}>
             <Slider {...settings}>
                 {props.images.map((item) => (
                     <OffersCard 
